@@ -106,7 +106,7 @@ body {
     width: 100%;
     height: 5rem;
     padding: 1.25rem;
-    display: flex;
+    display: none;
     gap: .3125rem;
     align-items: center;   
     border-radius: 0 0 .75rem .75rem;
@@ -125,6 +125,10 @@ body {
     margin: 0 .5rem;
 }
 
+.show {
+    display: flex;
+}
+
 .attribution {
     width: 20.625rem;
     margin: 0 auto;
@@ -135,3 +139,49 @@ body {
 .attribution a {
     color: hsl(228, 45%, 44%);
 } 
+
+@media (min-width:745px) {
+    .card-container {
+        margin: 16.875rem auto 4.6875rem;
+        width: 45.9375rem;
+        height: 17.5rem;
+        display: flex;
+    }
+    .card__picture {
+        height: 100%;
+        background-position-y: unset;
+        border-radius: .75rem 0 0 .75rem;
+    }
+    .card__content {
+        padding: 0 2.5rem 1.875rem 1.875rem;
+    }
+    .card__content-title {
+        margin-bottom: 1.25rem;
+        font-size: 1.2188rem;
+        line-height: 1.625rem;
+    }
+    .card__content-paragraph {
+        margin-bottom: 1.25rem;
+        font-size: .6906rem;
+    }
+    .card__content-button {
+        right: 3.125rem;
+        bottom: 1.875rem;
+    }
+    .card__content-social-icons {
+        width: 15.625rem;
+        height: 3.5rem;
+        bottom: 5rem;
+        border-radius: .5rem;
+        right: -3.75rem;
+    }
+    .card__content-social-icons::after {
+        content: "";
+        border: 10px solid;
+        border-color: var(--VeryDarkGrayishBlue) transparent transparent;
+        position: absolute;
+        top: 100%;
+        left: 7.1875rem;
+
+    }
+}
