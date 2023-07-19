@@ -5,6 +5,7 @@
     --DesaturatedDarkBlue: hsl(214, 17%, 51%);
     --GrayishBlue: hsl(212, 23%, 69%);
     --LightGrayishBlue: hsl(210, 46%, 95%);
+    --white: #fff
 }
 
 *,
@@ -16,24 +17,122 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-family: 'Manrope', sans-serif;
     font-size: 13px;
+    background: var(--LightGrayishBlue);
 }
 
 .card-container {
-    border: 1px solid black; 
+    background: var(--white);
+    width: 25.3846rem;
+    height: 39.8462rem;
+    margin: 5.7692rem auto;
+    border-radius: .9231rem;
+    position: relative;
 }
 
 .card__picture {
-    border: 1px solid black;
+    background-image: url(./images/drawers.jpg);
+    background-size: cover;
+    background-position-y: -1.5385rem;
+    width: 100%;
+    height: 15.3846rem;
+    border-radius: .9231rem .9231rem 0 0;
 }
 
 .card__content {
-    border: 1px solid black;
+    text-align: left;
+    padding: 2.3077rem;
 }
 
-.card__perfil {
-    border: 1px solid black;
+.card__content-title {
+    color: var(--VeryDarkGrayishBlue);
+    margin-bottom: .9231rem;
+    font-size: 1.2308rem;
+    line-height: 1.8462rem;
+}
+
+.card__content-paragraph {
+    font-size: 1rem;
+    line-height: 1.5385rem;
+    color: var(--DesaturatedDarkBlue);
+    letter-spacing: .3px;
+}
+
+.card__content-button {
+    position: absolute;
+    right: 1.9231rem;
+    bottom: 1.9231rem;
+    width: 2.3077rem;
+    height: 2.3077rem;
+    background: var(--LightGrayishBlue);
+    border-radius: 50%;
+    padding: 12px 8px 8px 12px;
+    z-index: 1;
+}
+
+.card__content-button:hover {
+    cursor: pointer;
+    background-color: var(--DesaturatedDarkBlue);
+}
+
+.card__content-button:hover path {
+    fill: var(--white);
+}
+
+.card__profile {
+    display: flex;
+    margin: 0 2.3077rem;
+}
+
+.card__profile-image {
+    width: 3.0769rem;
+    height: 3.0769rem;
+    border-radius: 50%;
+}
+
+.card__profile-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.card__profile-name {
+    color: var(--VeryDarkGrayishBlue);
+    margin: 4px 0 2px 15px;
+    font-weight: 700;
+}
+
+.card__profile-date {
+    margin-left: 15px;
+    color: var(--GrayishBlue);
+}
+
+.card__social-icons {
+    display: flex;
+    gap: .3846rem;
+    align-items: center;
+    background: var(--VeryDarkGrayishBlue);
+    width: 100%;
+    height: 6.1538rem;
+    padding: 1.5385rem;
+    border-radius: 0 0 .9231rem .9231rem;
+    position: absolute;
+    bottom: 0;
+}
+
+.card__social-icons-share {
+    color: var(--DesaturatedDarkBlue);
+    text-transform: uppercase;
+    letter-spacing: .3077rem;
+    font-weight: 500;
+}
+
+.card__social-icon {
+    margin: 0 .6154rem;
 }
 
 .attribution {
