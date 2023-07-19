@@ -8,10 +8,11 @@
   <title>Frontend Mentor | Article preview component</title>
 </head>
 <body>
-  <main class="card-container">
-    <section class="card__picture">
-    </section>
-    <section class="card__content">
+  <section class="card-container">
+    <!-- image -->
+    <div class="card__picture"></div>
+    <!-- content -->
+    <main class="card__content">
       <h1 class="card__content-title">
         Shift the overall look and feel by adding these wonderful
         touches to furniture in your home
@@ -20,36 +21,39 @@
         Ever been in a room and felt like something was missing? Perhaps
         it felt slightly bare and uninviting. I’ve got some simple tips
         to help you make any room feel complete.
-      </p> 
-    </section>
-    <svg class="card__content-button" xmlns="http://www.w3.org/2000/svg" width="15" height="13"><path fill="#6E8098" d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"/></svg>
-    <!-- <section class="card__profile">
-      <img class="card__profile-image" src="./src/images/avatar-michelle.jpg" alt="user-image">
-      <div class="card__profile-info">
-        <h3 class="card__profile-name">
-          Michelle Appleton
-        </h3>
-        <p class="card__profile-date">
-          28 Jun 2020
-        </p>
-      </div> 
-    </section> -->
-    <section class="card__social-icons">
-        <p class="card__social-icons-share">share</p>
+      </p>
+      <!-- share button -->
+      <svg class="card__content-button" xmlns="http://www.w3.org/2000/svg" width="15" height="13"><path fill="#6E8098" d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"/></svg>
+      <!-- profile -->
+      <!-- <div class="card__content-profile">
+        <img class="card__content-profile-image" src="./src/images/avatar-michelle.jpg" alt="user-image">
+        <div class="card__profile-info">
+          <p class="card__profile-name">
+            Michelle Appleton
+          </p>
+          <p class="card__profile-date">
+            28 Jun 2020
+          </p>
+        </div> 
+      </div> -->
+      <!--social icons -->
+      <div class="card__content-social-icons">
+        <p class="card__content-social-icons-share">share</p>
         <a href="#">
-          <img  class="card__social-icon facebook" src="./src/images/icon-facebook.svg" alt="facebook-logo">
+          <img  class="card__content-social-icon facebook" src="./src/images/icon-facebook.svg" alt="facebook-logo">
         </a>
-        <a href="#"><img class="card__social-icon twitter"  src="./src/images/icon-twitter.svg" alt="twitter-logo">
+        <a href="#"><img class="card__content-social-icon twitter"  src="./src/images/icon-twitter.svg" alt="twitter-logo">
         </a>
         <a href="#">
-          <img class="card__social-icon pinterest"  src="./src/images/icon-pinterest.svg" alt="pinterest-logo">
+          <img class="card__content-social-icon pinterest"  src="./src/images/icon-pinterest.svg" alt="pinterest-logo">
         </a>
-    </section>  
-  </main>  
+      </div>
+    </main>
+  <script src="./src/main.js"></script>  
+  </section>    
   <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://www.frontendmentor.io/profile/Arfirpo" target="_blank">Agustín R. Firpo</a>.
   </footer>
-  <script src="./src/main.js"></script>
 </body>
 </html>
