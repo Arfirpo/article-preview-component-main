@@ -14,7 +14,6 @@ This is a solution to the [Article preview component challenge on Frontend Mento
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -34,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github Page](https://arfirpo.github.io/article-preview-component-main/)
+- Repository URL: [Github Repository](https://github.com/Arfirpo/article-preview-component-main)
 
 ## My process
 
@@ -50,28 +49,24 @@ Users should be able to:
 
 ### What I learned
 
-- El uso del metodo "toogle" in javascript;
-- El uso del parametro background-position, la posibilidad de usar valores negativos para posicionar elementos por fuera de la caja contenedora y deshabilitarlo con el valor "unset".
-Además, reforcé mis conocimientos sobre:
+- use of the method "toogle" in javascript;
+- The use of the background-position parameter, the possibility to use negative values to position elements outside the container and disable it with the value "unset"
+I also strengthened my knowledge of:
 - Display flex;
-- Posición absoluta/relativa;
-- El uso de z-index;
-- Uso de animaciones para dar más vida a los elementos interactivos de mis paginas.
-- Manipulación de imagenes en formato SVG, principalmente el atributo "fill"
+- absolute/relative position;
+- use of z-index;
+- Use of animations to give more life to the interactive elements of my pages.
+- Manipulation of images in SVG format, mainly the "fill" attribute
 
 ### Continued development
 
 In future challenges I would like to deepen and master the use of display flex/grid and consolidate my javascritp management in relation to cssy html
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
 ### Useful resources
 
 - [Coding-Tube] (https://www.youtube.com/watch?v=ej6fYg1f5eA&t=8519s) - This helped me as guide to resolve the challenge. I really liked this tutorial and gave me tools that i will use it going forward.
-
 
 ## Author
 
 - LinkedIn - [Agustín R. Firpo](https://www.linkedin.com/in/agustin-rodrigo-firpo-0aa86697/)
 - Frontend Mentor - [@Arfirpo](https://www.frontendmentor.io/profile/Arfirpoe)
-
