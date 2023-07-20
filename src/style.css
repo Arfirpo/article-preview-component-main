@@ -67,7 +67,7 @@ body {
     border-radius: 50%;
     padding: .5rem .5rem;
     z-index: 1;
-
+    transition: 600ms;
 }
 
 .card__content-button:hover {
@@ -112,6 +112,7 @@ body {
     border-radius: 0 0 .75rem .75rem;
     position: absolute;
     bottom: 0;
+    
 }
 
 .card__content-social-icons-share {
@@ -119,6 +120,7 @@ body {
     text-transform: uppercase;
     letter-spacing: .25rem;
     font-weight: 500;
+    
 }
 
 .card__content-social-icon {
@@ -127,6 +129,11 @@ body {
 
 .show {
     display: flex;
+}
+
+.rotate {
+    transform: scale(1.2) rotate(315deg);
+    transition: 600ms;
 }
 
 .attribution {
@@ -182,6 +189,5 @@ body {
         position: absolute;
         top: 100%;
         left: 7.1875rem;
-
     }
 }
