@@ -64,7 +64,7 @@ In future challenges I would like to deepen and master the use of display flex/g
 
 ### Useful resources
 
-- [Coding-Tube] (https://www.youtube.com/watch?v=ej6fYg1f5eA&t=8519s) - This helped me as guide to resolve the challenge. I really liked this tutorial and gave me tools that i will use it going forward.
+- [Coding-Tube](https://www.youtube.com/watch?v=ej6fYg1f5eA&t=8519s) - This helped me as guide to resolve the challenge. I really liked this tutorial and gave me tools that i will use it going forward.
 
 ## Author
 
